@@ -20,6 +20,10 @@ N/A
 
 The website can be accessed via an internet browser and you can navigate to different sections by clicking the links on the right of the navigation bar at the top of the page.
 
+Link: https://drrobertson9673.github.io/HoriseonWebsiteChallenge/
+
+![screenshot of the website](assets/images/HoriseonScreenshot.png)
+
 ## Credits
 
 The initial website was provided by Horiseon.
