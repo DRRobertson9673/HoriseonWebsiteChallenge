@@ -1,30 +1,30 @@
-* {
+* { /* sets a global style that on all elements padding and border are included in the width and height */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
+body { /* sets the background colour of the page */
     background-color: #d9dcd6;
 }
 
-nav {
+nav { /* sets the padding, font, background colour and font colour of the navigation bar */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-nav h1 {
+nav h1 { /* sets the header 1 value of the navigation bar to display inline block and set the font size */
     display: inline-block;
     font-size: 48px;
 }
 
-nav h1 .seo {
+nav h1 .seo { /* sets the font colour of the 'SEO' portion of the header 1 value */
     color: #d9dcd6;
 }
 
-nav div {
+nav div { /* sets the padding, margin, float, font family and font size of the naviagtion elements of the nav bar */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,25 +32,25 @@ nav div {
     font-size: 20px;
 }
 
-nav div ul {
+nav div ul { /* removes any bullet points from unordered list in the navigation bar */
     list-style-type: none;
 }
 
-nav div ul li {
+nav div ul li { /* sets the links in the navigation bar to display inline block and sets the left nmargin between them */
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
+a { /* sets the colour of any links on the page and removes anu underlining */
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
+p { /* sets the font size of any paragraph text on the page */
     font-size: 16px;
 }
 
-.Background-Image {
+.Background-Image { /* settings for the main background image */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,13 +59,13 @@ p {
     background-position: center;
 }
 
-.content {
+.content { /* settings for the main content section that contains the articles */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-article {
+article { /* settings for the articles of self contained content */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -74,26 +74,26 @@ article {
     color: #ffffff;
 }
 
-article img {
+article img { /* settings for the images within each article */
     max-height: 200px;
 }
 
-article h1 {
+article h1 { /* setting the bottom margin and font size of the heading in the articles */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.float-left {
+.float-left { /* setting the value of float left with a right margin used on the images in the first and third articles */
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.float-right { /* setting the value of float right with a left margin used on the image in the second article */
     float: right;
     margin-left: 25px;
 }
 
-aside {
+aside { /* settings for the aside section on the right of the page containing the benefits */
     min-height: 940px;
     margin-right: 20px;
     margin-bottom: 32px;
@@ -107,28 +107,28 @@ aside {
     background-color: #2589bd;
 }
 
-aside h1 {
+aside h1 { /* setting the alignment and margin of the headers in the benefits section */
     margin-bottom: 10px;
     text-align: center;
 }
 
-aside p {
+aside p { /* setting the bottom padding of the paragraph text in the benefits section to maintain original distance between benefit icons and text */
     padding-bottom: 32px;
   }
 
-aside img {
+aside img { /* settings for the icons within the benefits section */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-footer {
+footer { /* settings for the footer section */
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-footer h1 {
+footer h1 { /* setting the font size of the heading in the footer section */
     font-size: 20px;
 }
