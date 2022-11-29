@@ -78,7 +78,7 @@ article img { /* settings for the images within each article */
     max-height: 200px;
 }
 
-article h1 { /* setting the bottom margin and font size of the heading in the articles */
+article h2 { /* setting the bottom margin and font size of the heading in the articles */
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -107,7 +107,7 @@ aside { /* settings for the aside section on the right of the page containing th
     background-color: #2589bd;
 }
 
-aside h1 { /* setting the alignment and margin of the headers in the benefits section */
+aside h3 { /* setting the alignment and margin of the headers in the benefits section */
     margin-bottom: 10px;
     text-align: center;
 }
@@ -129,6 +129,6 @@ footer { /* settings for the footer section */
     text-align: center;
 }
 
-footer h1 { /* setting the font size of the heading in the footer section */
+footer h4 { /* setting the font size of the heading in the footer section */
     font-size: 20px;
 }
